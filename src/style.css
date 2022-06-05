@@ -1,0 +1,192 @@
+html:focus-within {
+  scroll-behavior: auto;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+:root {
+  --Darkcyan: hsl(185, 75%, 39%);
+  --Verydark-desaturated-blue: hsl(229, 23%, 23%);
+  --Darkgrayish-blue: hsl(227, 10%, 46%);
+}
+body {
+  font-size: 18px;
+  height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #19a1ad;
+}
+@media only screen and (min-width: 375px) and (max-width: 455px) {
+  body {
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 150px bottom 220px, left 90px top 300px;
+  }
+}
+@media only screen and (min-width: 455px) and (max-width: 599px) {
+  body {
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 160px bottom 230px, left 100px top 330px;
+  }
+}
+@media only screen and (min-width: 599px) and (max-width: 700px) {
+  body {
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 180px bottom 250px, left 110px top 360px;
+  }
+}
+@media only screen and (min-width: 701px) and (max-width: 800px) {
+  body {
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 200px bottom 270px, left 120px top 390px;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+  body {
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 220px bottom 290px, left 130px top 420px;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1450px) {
+  body {
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 760px bottom 290px, left 650px top 520px;
+  }
+}
+@media only screen and (min-width: 1919px) and (max-width: 1999px) {
+  body {
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 900px bottom 400px, left 850px top 520px;
+  }
+}
+@media only screen and (min-width: 2000px) and (max-width: 2500px) {
+  body {
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 1000px bottom 400px, left 950px top 520px;
+  }
+}
+.container {
+  width: 327px;
+  height: 374px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.img-1,
+.img {
+  width: 327px;
+  height: 139px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.hero-img img {
+  position: relative;
+  width: 105px;
+  border-radius: 50%;
+  border: 5px solid white;
+  left: 111px;
+  bottom: 60px;
+}
+.Heading-1 h1 {
+  font-size: 1em;
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+  right: 15px;
+  font-weight: 700;
+}
+.number-age span {
+  position: relative;
+  top: -104px;
+  right: -212px;
+  color: #9d9ea2;
+}
+.Heading-2 h2 {
+  font-size: 0.75em;
+  position: relative;
+  top: -110px;
+  right: -145px;
+  color: #9d9ea2;
+}
+hr {
+  width: 324px;
+  border: 0.5px solid;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  color: #f0f0f0;
+  position: relative;
+  bottom: 90px;
+}
+
+.span-1 {
+  display: inline-block;
+  position: relative;
+  top: -80px;
+  left: 50px;
+  font-weight: 700;
+}
+.span-2 {
+  display: inline-block;
+  position: relative;
+  top: -60px;
+  color: #9d9ea2;
+  font-size: 400;
+  left: 5px;
+  font-size: 0.6em;
+}
+.span-3 {
+  display: inline-block;
+  position: relative;
+  top: -80px;
+  left: 60px;
+  font-weight: 700;
+}
+.span-4 {
+  display: inline-block;
+  position: relative;
+  top: -60px;
+  left: 19px;
+  color: #9d9ea2;
+  font-size: 0.6em;
+}
+.span-5 {
+  display: inline-block;
+  position: relative;
+  font-weight: 700;
+  top: -80px;
+  left: 80px;
+}
+.span-6 {
+  display: inline-block;
+  position: relative;
+  top: -60px;
+  left: 40px;
+  color: #9d9ea2;
+  font-size: 400;
+  font-size: 0.6em;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
